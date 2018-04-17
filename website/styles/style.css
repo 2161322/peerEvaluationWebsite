@@ -1,0 +1,29 @@
+#background {
+	width: 100%;
+	height: 120%;
+	position: fixed;
+	background: url("images/back.jpg");
+	background-repeat: no-repeat;
+    background-size: 100%;
+	top: -190px;
+	left: 0px;
+}
+#navTop {
+	background-color: rgba(44, 53, 57, 0.6); 
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 60px;
+}
+#navTop a {
+	float: left;
+	padding: 15px 26px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 24px;
+	font-family: Verdana;
+}
+#rightButton {
+	float: right !important;
+}
