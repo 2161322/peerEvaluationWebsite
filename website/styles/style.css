@@ -1,29 +1,33 @@
-#background {
-	width: 100%;
-	height: 120%;
-	position: fixed;
-	background: url("images/back.jpg");
-	background-repeat: no-repeat;
-    background-size: 100%;
-	top: -190px;
-	left: 0px;
-}
 #navTop {
-	background-color: rgba(44, 53, 57, 0.6); 
+	background-color: #2C3539; 
 	position: absolute;
 	top: 0px;
 	left: 0px;
 	width: 100%;
-	height: 60px;
+	height: 55px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #navTop a {
 	float: left;
 	padding: 15px 26px;
 	text-decoration: none;
-	color: #FFFFFF;
-	font-size: 24px;
+	color: #D1D0CE;
+	font-size: 21px;
+	letter-spacing: -1px;
 	font-family: Verdana;
+}
+#navTop a:hover {
+	color: #FFFFFF;
 }
 #rightButton {
 	float: right !important;
+}
+#loginBox {
+	margin: auto;
+	border: 1px solid #848482;
+	border-radius: 6px;
+	top: 60px;
+	position: relative;
+	width: 800px;
+	height: 600px;
 }
